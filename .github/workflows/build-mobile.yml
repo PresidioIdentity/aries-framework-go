@@ -42,7 +42,7 @@ jobs:
           path: ./cmd/aries-agent-mobile/build/ios
   build-android:
     name: Build Android bindings
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@v3
