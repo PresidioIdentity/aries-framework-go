@@ -6,7 +6,7 @@
 GO_CMD ?= go
 GOMOBILE_CMD ?= gomobile
 
-PROJECT_ROOT = github.com/PresidioIdentity/aries-framework-go
+PROJECT_ROOT = github.com/hyperledger/aries-framework-go
 MOBILE_PROJECT_ROOT = $(PROJECT_ROOT)/cmd/aries-agent-mobile
 
 MOBILE_BUILD_PACKAGES := $(MOBILE_PROJECT_ROOT)/...
